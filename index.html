@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>오늘의집</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, 
+user-scalable=no">
+
+<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>     
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    
+<link rel="stylesheet" href="common/css/common.css">    
+<link rel="stylesheet" href="common/css/common-media.css">
+<link rel="stylesheet" href="maincss/main.css">
+<link rel="stylesheet" href="maincss/media.css">
+<link rel="stylesheet" href="maincss/flexslider2.css">
+
+<script src="mainjs/jquery-1.10.2.min.js"></script>
+<script src="mainjs/jssor.slider-22.1.8.mini.js"></script>
+
+<script src="common/js/common.js"></script>
+<script src="mainjs/main.js"></script>
+</head>
+<body>
+	<div id="wrap">
+	<header class="header">
+	<div class="header_mt">
+		<h1><a href="index.html">오늘의집</a></h1>
+		<p class="ic_menu"><img src="images/ic_menu.png" alt="ic_menu"></p>  
+        <p class="ic_menu2"><img src="images/search.png" alt="ic_menu2"></p>
+        <p class="ic_menu3"><img src="images/cart.png" alt="ic_menu3"></p>
+	</div><!--header_mt/-->	
+	<div class="header_m-t">
+		<ul>
+		<li><a href="index.html">커뮤니티</a></li>	
+		<li><a href="sub1/sub1.html">스토어</a></li>	
+			<li><a href="sub3/sub3.html">인테리어시공</a></li>
+		</ul>
+		
+	</div><!--header_m-t/-->	
+	
+	<div class="header_pc">
+	    <div class="header_menu">
+		<h1><a href="index.html">오늘의집</a></h1>
+        
+		<nav class="nav">
+			<ul class="gnb">
+			
+			<li><a href="index.html"><strong>커뮤니티</strong></a>
+				<ul class="sub sub1">
+				<li><a href="#">사진</a></li>	
+				<li><a href="#">집들이</a></li>	
+				<li><a href="#">노하우</a></li>	
+				<li><a href="#">셀프가이드</a></li>	
+				<li><a href="#">이벤트</a></li>	
+				<li><a href="#">질문과 답변</a></li>	
+				</ul>
+			</li>	
+			<li><a href="sub1/sub1.html"><strong>스토어</strong></a>
+			<ul class="sub sub2">
+				<li><a href="sub1/sub1.html">스토어 홈</a></li>	
+				<li><a href="#">카테고리</a></li>	
+				<li><a href="#">신혼가구</a></li>	
+				<li><a href="#">베스트 상품</a></li>	
+				<li><a href="#">오늘의 딜</a></li>	
+				<li><a href="#">기획전</a></li>	
+				</ul>
+			</li>	
+				<li><a href="sub3/sub3.html"><strong>인테리어시공</strong></a>
+			<ul class="sub sub3">
+				<li><a href="sub3/sub3.html">시공 홈</a></li>	
+				<li><a href="#">시공스토어</a></li>	
+				</ul>
+			</li>	
+                <li class="search_icon"><img src="images/search.png" alt="search"></li>  
+                <li class="log1"><a href="#"><strong>회원가입</strong></a></li>
+                <li class="log2"><a href="#"><strong>로그인</strong></a></li>
+                
+			</ul>
+		      
+			  
+			 
+		</nav>
+		
+		<div class="search_w">
+    <div class="search_in">
+      <input type="text" placeholder="스토어 검색" class="search_txt">   
+      <input type="button" value="검색" class="search_btn">
+    </div>  
+  </div>  
+		
+		</div><!--header_menu/-->
+	</div><!--header_pc/-->
+	</header>	
+	
+	<div class="left_menu">
+	
+	<ul class="gnb2">
+	
+	<li><a href="index.html"><strong>커뮤니티</strong></a>
+				<ul class="subm subm1">
+				<li><a href="#">사진</a></li>	
+				<li><a href="#">집들이</a></li>	
+				<li><a href="#">노하우</a></li>	
+				<li><a href="#">셀프가이드</a></li>	
+				<li><a href="#">이벤트</a></li>	
+				<li><a href="#">질문과 답변</a></li>	
+				</ul>
+			</li>	
+			<li><a href="sub1/sub1.html"><strong>스토어</strong></a>
+			<ul class="subm subm2">
+				<li><a href="sub1/sub1.html">스토어 홈</a></li>	
+				<li><a href="#">카테고리</a></li>	
+				<li><a href="#">신혼가구</a></li>	
+				<li><a href="#">베스트 상품</a></li>	
+				<li><a href="#">오늘의 딜</a></li>	
+				<li><a href="#">기획전</a></li>	
+				</ul>
+			</li>	
+				<li><a href="sub3/sub3.html"><strong>인테리어시공</strong></a>
+			<ul class="subm subm3">
+				<li><a href="sub3/sub3.html">시공 홈</a></li>	
+				<li><a href="#">시공스토어</a></li>	
+				</ul>
+			</li>
+	</ul>
+	<div class="sub_box">
+	<ul>
+	<li><a href="#">마이페이지</a></li>	
+	<li><a href="#">알림</a></li>	
+	<li><a href="#">이벤트</a></li>	
+	<li><a href="#">고객센터</a></li>	
+	</ul>	
+	</div><!--sub_box/-->
+	<h1 class="text">오늘의집</h1>
+	<p class="login">로그인</p>
+	<p class="account">회원가입</p>
+	<p class="close">닫기</p>  	
+		
+	</div><!--left_menu/-->
+	
+	
+	
+	<div class="search_menu">
+	<div class="search_in">
+	<input type="text" placeholder="오늘의집&nbsp;통합검색" class="search_txt2">	
+	</div><!--search_in/-->
+	<p class="close2">닫기</p> 	
+	</div><!--search_menu/-->
+	
+	<div class="cart_menu">
+	<ul class="gnb4">
+	<li><img src="images/cart_back.png" alt="back"></li>
+	<li>장바구니에&nbsp;담겨있는&nbsp;상품이&nbsp;없습니다.</li>
+	<li>스토어에서&nbsp;상품을&nbsp;담아보세요&#33;</li>	
+	</ul>	
+	<p class="close3">닫기</p> 	
+	</div><!--cart_menu/-->
+	
+	<div class="black_back"></div>
+	
+	<div class="visual">
+	
+	<div class="visual_left">
+	<p><a href="#"><img src="images/main1.jpg" alt="#"><span>모던한 서울 집에 숨은 낭만 "나무 온실이 있어요"</span></a></p>
+	<div class="btn"><p><a href="#">보러가기</a></p></div>
+		
+	</div><!--visual_left/-->
+	
+	<div class="visual_m">
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:640px;height:180px;overflow:hidden;visibility:hidden;">
+
+    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:640px;height:180px;overflow:hidden;">
+     <div><img data-u="image" src="images/event_m1.jpg" alt="m이벤트1" /></div>
+     <div><img data-u="image" src="images/event_m2.jpg" alt="m이벤트2"/></div>
+     <div><img data-u="image" src="images/event_m3.jpg" alt="m이벤트3"/></div>
+     <div><img data-u="image" src="images/event_m4.jpg" alt="m이벤트4"/></div>
+     <div><img data-u="image" src="images/event_m5.jpg" alt="m이벤트5"/></div>            
+    </div>
+        
+        
+        <!-- Bullet Navigator -->                
+    <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+    </div>
+       
+        <!-- Arrow Navigator -->
+    <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;margin-top:-5px;" data-autocenter="2"></span>
+    <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;margin-top:-5px;" data-autocenter="2"></span>
+    </div>  
+  </div><!--visual_m/-->  
+	
+	
+	<div class="visual_t-pc">
+   
+    <div class="visual_t-pc_left">
+    <p><a href="#"><span>모던한&nbsp;서울&nbsp;집에&nbsp;숨은&nbsp;낭만&nbsp;"나무&nbsp;온실이&nbsp;있어요"</span></a></p>
+	<div class="btn1"><p><a href="#">보러가기</a></p></div>	
+    </div><!--visual_t-pc_left/--> 
+    
+    <div class="visual_t-pc_right">
+     <div id="jssor_2" style="position:relative;margin:0 auto;top:0px;left:0px;width:260px;height:566px;overflow:hidden;visibility:hidden;">
+
+    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:260px;height:566px;overflow:hidden;">
+     <div><a href="#"><img data-u="image" src="images/event1.jpg" alt="이벤트1"/></a></div>
+     <div><a href="#"><img data-u="image" src="images/event2.jpg" alt="이벤트2"/></a></div>
+     <div><a href="#"><img data-u="image" src="images/event3.jpg" alt="이벤트3"/></a></div>
+     <div><a href="#"><img data-u="image" src="images/event4.jpg" alt="이벤트4"/></a></div>
+     <div><a href="#"><img data-u="image" src="images/event5.jpg" alt="이벤트5"/></a></div>            
+    </div>
+        
+    
+        
+  
+                  
+    <!-- Bullet Navigator -->                
+    <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+    </div>
+       
+        <!-- Arrow Navigator -->
+    <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;margin-top:-40px;" data-autocenter="2"></span>
+    <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;margin-top:-40px;" data-autocenter="2"></span>
+    </div>  
+    </div><!--visual_t-pc_right/--> 
+  </div><!--visual_t-pc/--> 
+  
+	<div class="visual_l">
+	<ul class="list">
+	<li class="l1-1"><a href="#"><img src="images/icon1.jpg" alt=""><br><span>쇼핑하기</span></a></li>	
+	<li class="l1-2"><a href="#"><img src="images/icon2.jpg" alt=""><br><span>가구</span></a></li>	
+	<li class="l1-3"><a href="#"><img src="images/icon3.jpg" alt=""><br><span>집구경하기</span></a></li>	
+	<li class="l1-4"><a href="#"><img src="images/icon4.jpg" alt=""><br><span>공간별사진</span></a></li>	
+	<li class="l1-5"><a href="#"><img src="images/icon5.jpg" alt=""><br><span>시공간편상담</span></a></li>	
+	<li class="l1-6"><a href="#"><img src="images/icon6.jpg" alt=""><br><span>주방리모델링</span></a></li>	
+	<li class="l1-7"><a href="#"><img src="images/icon7.jpg" alt=""><br><span>CF런칭선물</span></a></li>	
+	<li class="l1-8"><a href="#"><img src="images/icon8.jpg" alt=""><br><span>질문과답변</span></a></li>	
+	</ul>	
+	</div><!--visual_l/--> 
+	</div><!--visual/--> 
+	
+	<div class="contents">
+		<section class="cont1">
+    <h2>카테고리&nbsp;별&nbsp;상품&nbsp;찾기</h2>
+     
+    
+     <div id="main" role="main" class="main1">
+      <section class="slider">
+        <div class="flexslider carousel">
+          <ul class="slides">
+          <li><a href="#"><img src="images/slieder1.png" alt="#" /><span>
+              <strong>가구</strong>
+            </span></a></li>
+        <li><a href="#"><img src="images/slider2.png" alt="" />
+              <strong>페브릭</strong></a>
+        </li>
+        <li><a href="#"><img src="images/slider3.png" alt="" />
+              <strong>수납&nbsp;및&nbsp;정리</strong></a>
+        </li>
+        <li><a href="#"><img src="images/slider4.png" alt="" />
+              <strong>러그/카페트</strong></a>
+        </li>
+          
+        <li><a href="#"><img src="images/slider5.png" alt="" />
+              <strong>생활용품</strong></a>
+        </li>
+          
+        <li><a href="#"><img src="images/slider6.png" alt="" />
+              <strong>가전</strong></a>
+        </li>
+          
+        <li><a href="#"><img src="images/slider7.png" alt="" />
+              <strong>주방</strong></a>
+        </li>
+        
+        <li><a href="#"><img src="images/slider8.png" alt="" />
+              <strong>반려동물</strong></a>
+        </li>
+          
+        <li><a href="#"><img src="images/slider9.png" alt="" />
+             <strong>조명</strong></a>
+        </li>
+         
+        <li><a href="#"><img src="images/slider10.png" alt="" />
+             <strong>홈트레이닝</strong></a>
+        </li>
+         
+        <li><a href="#"><img src="images/slider11.png" alt="" />
+             <strong>인테리어</strong></a>
+        </li> 
+        
+        <li><a href="#"><img src="images/slider12.png" alt="" />
+             <strong>커튼/블라인드</strong></a>
+        </li> 
+        
+        <li><a href="#"><img src="images/slider13.png" alt="" />
+             <strong>캠핑용품</strong></a>
+        </li> 
+         
+          </ul>
+        </div>
+ </section>
+ </div>  
+ 
+  </section><!--cont1/-->
+  
+  <section class="cont2">
+	<h1>오늘의 인기 사진</h1>
+	<section class="box"><a href="#">
+	<div class="box_in1"><img src="images/picture1.png" alt="#"></div>
+	</a></section><!--box1/-->		
+	<section class="box"><a href="#">
+	<div class="box_in2"><img src="images/picture2.JPG" alt="#"></div>
+	</a></section><!--box2/-->		
+	<section class="box"><a href="#">
+	<div class="box_in3"><img src="images/picture3.jpg" alt="#"></div>
+	</a></section><!--box3/-->		
+	<section class="box"><a href="#">
+	<div class="box_in4"><img src="images/picture4.jpg" alt="#"></div>
+	</a></section><!--box4/-->		
+	<section class="box"><a href="#">
+	<div class="box_in5"><img src="images/picture5.jpg" alt="#"></div>
+	</a></section><!--box5/-->		
+	<section class="box"><a href="#">
+	<div class="box_in6"><img src="images/picture6.jpg" alt="#"></div>
+	</a></section><!--box6/-->		
+	<section class="box"><a href="#">
+	<div class="box_in7"><img src="images/picture7.jpg" alt="#"></div>
+	</a></section><!--box7/-->		
+	<section class="box"><a href="#">
+	<div class="box_in8"><img src="images/picture8.jpg" alt="#"></div>
+	</a></section><!--box8/-->	
+		
+	</section><!--cont2/-->
+    
+    <p class="con2_btn"><a href="#">인기 사진 더 보러 가기</a></p>
+  
+   <section class="cont3">
+	<h1>오늘의 기획전</h1>
+	<section class="box"><a href="#">
+	<div class="box_in1"><img src="images/3_1.jpg" alt="#"></div>
+	<p>눈독 들였던 아이코닉한 디자인 제품, 지금이 기회~<br><span>[프리오더] 프리미엄 해외 디자인 브랜드 특가 ~38%</span></p></a></section><!--box1/-->		
+	<section class="box"><a href="#">
+	<div class="box_in2"><img src="images/3_2.jpg" alt="#"></div>
+	<p>진열/반품/스크래치 가구 가전 초특가<br>
+     <span>[리퍼마켓] 어제는 정상가, 오늘은 반값!</span></p></a></section><!--box2/-->		
+	<section class="box"><a href="#">
+	<div class="box_in3"><img src="images/3_3.jpg" alt="#"></div>
+	<p>커튼/블라인드/침구 내 취향대로 디자인!<br>
+<span>[단독특가] 맞춤패브릭 전문관 ~81%</span></p></a></section><!--box3/-->		
+	<section class="box"><a href="#">
+	<div class="box_in4"><img src="images/3_4.jpg" alt="#"></div>
+	<p>월 9,900원부터! 정수기 최대 32만원 페이백!
+<span>[렌탈] 세상의 모든 정수기, 최대 혜택 보장!</span></p></a></section><!--box4/-->		
+	
+		
+		</section><!--cont3/-->	
+   		<p class="con3_btn"><a href="#">오늘의 기획전 더 보기</a></p>
+	</div><!--contents/-->	
+	
+	<footer class="footer">
+	
+	<div class="foot_in">
+	 <div class="foot1">
+	 <div class="foot1_left">
+	 <h3><a href="#">고객센터</a></h3>
+	 <h1>1670-0876</h1>
+     <h4>평일 09:00 ~ 18:00 (주말,공휴일 제외)</h4>
+	 </div><!--foot1_left/-->
+	 
+	 <div class="foot1_right">
+	 <ul>
+	 <li><a href="#"><img src="images/footer_icon1.jpg" alt="apple"></a></li>	
+	 <li><a href="#"><img src="images/footer_icon2.jpg" alt="playstore"></a></li>	
+	 <li><a href="#"><img src="images/footer_icon3.jpg" alt="kakaostory"></a></li>	
+	 <li><a href="#"><img src="images/footer_icon4.jpg" alt="facebook"></a></li>	
+	 <li><a href="#"><img src="images/footer_icon5.jpg" alt="instagram"></a></li>	
+	 <li><a href="#"><img src="images/footer_icon6.jpg" alt="naver"></a></li>	
+	 </ul>	
+	 	
+	 </div><!--foot1_right/-->
+	 </div><!--foot1/-->		
+	 <div class="foot2">
+	 <ul class="foot_top">
+		 <li><a href="#"><span>브랜드&nbsp;스토리</span></a></li>	
+	 <li><a href="#"><span>회사소개</span></a></li>	
+	 <li><a href="#"><span>채용정보</span></a></li>	
+	 <li><a href="#"><span>이용약관</span></a></li>	
+	 <li><a href="#"><span>개인정보</span>처리방침</a></li>	
+	 <li><a href="#"><span>공지사항</span></a></li>	
+	 <li><a href="#"><span>고객센터</span></a></li>	
+	 <li><a href="#"><span>고객의&nbsp;소리</span></a></li>	
+	 <li><a href="#"><span>전문가&nbsp;등록</span></a></li>	
+	 <li><a href="#"><span>사업자&nbsp;구매회원</span></a></li>	
+	 <li><a href="#"><span>제휴&#8226;광고문의</span></a></li>	
+	 <li class="foot_top-txt"><a href="#"><span>입점신청&nbsp;문의</span></a></li>
+	 
+		 <li class="foot_txt"><span>상호명</span>&nbsp;&#58;&nbsp;(주)버킷플레이스&nbsp;&nbsp;<span>이메일(고객문의)</span>&nbsp;&#58;&nbsp;cs@bucketplace.net&nbsp;&nbsp;<span>제휴문의</span>&nbsp;&#58;&nbsp;contact@bucketplace.net&nbsp;&nbsp;<span>대표이사</span>&nbsp;&#58;&nbsp;이승재&nbsp;&nbsp;<span>사업자등록번호</span>&nbsp;&#58;&nbsp;119-86-91245&nbsp;&nbsp;<span>통신판매업신고번호</span>&nbsp;&#58;&nbsp;제2018-서울&nbsp;서초-0580호&nbsp;&nbsp;<span>주소</span>&nbsp;&#58;&nbsp;서울&nbsp;서초구&nbsp;서초대로74길&nbsp;4&nbsp;삼성생명서초타워&nbsp;27층</li>
+	 
+	 <li class="foot_txt">NICEPAY 안전거래 서비스&nbsp;&#58;&nbsp;고객님의 안전거래를 위해 현금 결제 시, 저희 사이트에서 가입한 구매안전 서비스를 이용할 수 있습니다.<br>
+(주)버킷플레이스는 통신판매중개자로서 통신판매의 당사자가 아니며, 입점업체가 등록한 상품, 상품정보 및 거래에 대하여 (주)버킷플레이스는 일체 책임을 지지 않습니다.</li>
+     <li class="foot_txt"><span>Copyright 2014. bucketplace, Co., Ltd. All rights reserved</span></li>
+	 </ul>	
+	 	
+	 </div><!--foot2/-->	
+	</div><!--foot_in/-->
+		
+	
+	
+	
+	
+	</footer>	
+		
+	</div><!--wrap/-->
+	<!-- FlexSlider -->  
+<script src="mainjs/jquery.flexslider.js"></script>    
+<script>
+ $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: false,
+        itemWidth: 100,
+        itemMargin: 30,
+        pausePlay: true,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });   
+</script>
+</body>
+</html>
